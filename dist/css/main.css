@@ -13,8 +13,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(17, 1, 61, 0.9)), to(rgba(17, 1, 61, 0.3))), url("../images/model-1.jpg") center top;
-  background: linear-gradient(to right, rgba(17, 1, 61, 0.9), rgba(17, 1, 61, 0.3)), url("../images/model-1.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(13, 1, 53, 0.9)), to(rgba(13, 1, 53, 0.3))), url("../images/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(13, 1, 53, 0.9), rgba(13, 1, 53, 0.3)), url("../images/model-1.jpg") center top;
   background-size: cover;
 }
 
@@ -22,7 +22,7 @@
   font-size: 5rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #fff;
 }
 
 .home__name--last {
@@ -31,7 +31,7 @@
 }
 
 body {
-  background: #11013d;
+  background: #0d0135;
   color: #fff;
   height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -69,6 +69,8 @@ main .social-icons {
 
 main .social-icons a {
   padding: 0.4rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 main .social-icons a:hover {
